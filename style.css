@@ -1,9 +1,13 @@
 body {
-  background-color:#870B36
+ background-color:whitesmoke
   
   }
-h1 {
-  color:white;
+h2 {
+  color:#870B36;
+}
+
+h3 {
+  color:#870B36;
 }
 
 #nav-bar ul {
@@ -34,4 +38,33 @@ h1 {
 
 #nav-bar .active {
     background-color: #870B36;
+}
+
+
+p {
+  color:#870B36;
+
+}
+
+/* logo {
+ 
+ background: d("logo.PNG"), linear-gradient(135deg, #88bfe8 12%,#88bfe8 12%,#668bcc 32%,#465c8c 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  background-attachment: fixed; */
+  
+  
+/* }
+} */ 
+
+
+
+
+
+
+#purpose {
+  text-align: center;
+  
+   
 }
