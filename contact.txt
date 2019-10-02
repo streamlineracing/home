@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <div id="nav-bar">
+ <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="sponser.html">Sponsers</a></li>
+  <li><a href="about.html">The Team</a></li>
+  <li><a class="active" href="contact.html">Contact Us</a></li>
+</ul>
+
+</div>
+
+<form action="mailto:devpatel1629@gmail.com" method="post" enctype="text/plain" > 
+    Name  <br>
+    <input type="text" name="name"><br>
+    Email  <br>
+    <input type="text" name="Email"><br>
+    Message <br>
+    <input type="text"  name="Message"><br>
+    <input type="submit" name="submit" value="Submit">
+  </form>
+
+    
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
