@@ -1,158 +1,195 @@
 html {
-    overflow-x:hidden;
+  overflow-x:hidden;
+
+}
+
+
+.primary-pages {
+ background-image: url("https://www.ovoenergy.com/binaries/content/gallery/ovowebsitessuite/images/blogs/technology-and-innovation/3d-printing.jpg");
+
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+ margin: 0;
+ padding:0;
+}
+
+.spacer{
+  position: relative;
+  margin: 0;
+  padding:0; 
+  width: 100%;
+  height:100vh;
+
+
+}
+
+#purpose {
+  background-color: maroon;
+  position: relative;
+  margin: 0;
+  padding:0;
+  width:100%;
+
+}
+
+#purposetext {
+  background-color: maroon;
+  position: relative;
+  margin: 0;
+  padding:1%;
+  width:50%;
+  left: 25%;
+  font-size: 42px;
+
+
+}
+
   
-  }
-  
-  
-  .primary-pages {
-   background-image: url("https://www.ovoenergy.com/binaries/content/gallery/ovowebsitessuite/images/blogs/technology-and-innovation/3d-printing.jpg");
-  
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center;
-   background-size: cover;
-   margin: 0;
-   padding:0;
-  }
-  
-  .spacer{
-    position: relative;
-    margin: 0;
-    padding:0; 
-    width: 100%;
-    height:100vh;
-  
-  
-  }
-  
-  #purpose {
-    background-color: maroon;
-    position: relative;
-    margin: 0;
-    padding:0;
-    width:100%;
-  
-  }
-  
-  #purposetext {
-    background-color: maroon;
-    position: relative;
-    margin: 0;
-    padding:1%;
-    width:50%;
-    left: 25%;
-    font-size: 42px;
-  
-  
-  }
-  
-    
-  
-  #logo {
-    background-color: maroon;
-    position: relative;
-    margin: 0;
-    padding:0;
-    width:100%;
-   
-  }
-  h1{
-    color:white;
-  }
-  
-  
-  h2 {
-    color:whitesmoke;
-  }
-  
-  h3 {
-    color:whitesmoke;
-  }
-  
-  #nav-bar ul {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    list-style-type: none;
-  }
-  #nav-bar li {
-    float: left;
-    border-right: 1px solid #bbb;
-  }
-  #nav-bar li:last-child {
-      border-right: none;
-  }
-  #nav-bar li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-  
-  #nav-bar li a:hover:not(.active) {
-      background-color: #111;
-  }
-  
-  #nav-bar .active {
-      background-color: #870B36;
-  }
-  
-  
-  p {
-    color:whitesmoke;
-  
-  }
-  
-  /* logo {
-   
-   background: d("logo.PNG"), linear-gradient(135deg, #88bfe8 12%,#88bfe8 12%,#668bcc 32%,#465c8c 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    /* background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center top;
-    background-attachment: fixed; */
-    
-    
-  /* }
-  } */ 
-  
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  
-     .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-instagram {
-    background: #125688;
+
+#logo {
+  background-color: maroon;
+  position: relative;
+  margin: 0;
+  padding:0;
+  width:100%;
+  z-index: -1;
+ 
+}
+h1{
+  color:white;
+}
+
+
+h2 {
+  color:whitesmoke;
+}
+
+h3 {
+  color:whitesmoke;
+}
+
+#nav-bar ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  list-style-type: none;
+}
+#nav-bar li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+#nav-bar li:last-child {
+    border-right: none;
+}
+#nav-bar li a {
+    display: block;
     color: white;
-  }
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#nav-bar .active {
+    background-color: #870B36;
+}
+
+
+p {
+  color:whitesmoke;
+
+}
+
+/* logo {
+ 
+ background: d("logo.PNG"), linear-gradient(135deg, #88bfe8 12%,#88bfe8 12%,#668bcc 32%,#465c8c 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  background-attachment: fixed; */
   
   
-  #icons{
-    postion: center;
+/* }
+} */ 
+
+
+
+
+
+
+
+
   
-  }
+
+
+   .fa {
+  padding: 30px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  position: absolute;
+}
+
+
+#icons{
+  position: absolute;
+  left: 75px;
+
+}
+
+
+.bob {
+  position: absolute;
+  height: 1000px;
+  width: 50px;
+  left: 25%;
+
+}
+
+#gofundback {
+  background-color: maroon;
+  padding: 2px
+}
+
+
+
+
+
+body {
+  margin: 0;
+}
+
+#myCanvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
   
+}
+
+#countdownCanvas {
+  background-color: maroon;
+}
+
+#follow {
+  background-color: maroon;
+  padding: 5%;
   
-  #bob {
-    width: 100px;
-  
-  }
+}
